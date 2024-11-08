@@ -1,0 +1,24 @@
+:root{
+
+}
+
+.list-team-card{
+    border: 0.5px solid transparent;
+    text-decoration: none;
+    outline: none !important;
+}
+
+.list-team-card:hover{
+    border: 0.5px solid var(--iq-light);
+    transition: .25s all ease-in-out;
+    background-color: var(--light);
+}
+
+.list-team-image{
+
+}
+
+.list-team-name{
+    font-size: 1rem;
+    color: var(--iq-dark);
+}

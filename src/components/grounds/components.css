@@ -1,0 +1,70 @@
+:root{
+
+}
+
+#townSelect{
+    width: 200px !important;
+}
+
+.player-team-title{
+    font-size: 1.25rem;
+    color: var(--gray-dark);
+    font-weight: 600;   
+}
+
+.list-ground-card{
+    border: 0.5px solid transparent;
+    text-decoration: none;
+    outline: none !important;
+}
+
+.list-ground-card:hover{
+    border: 0.5px solid var(--iq-light);
+    transition: .25s all ease-in-out;
+    background-color: var(--light);
+}
+
+.list-ground-image{
+    width: 150px;
+    height: 100px;
+    border: 1px solid #dee2e6;
+    background-color: var(--light);
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1rem;
+}
+
+.list-ground-name{
+    font-size: 1.1rem;
+    font-weight: 600;
+    /* line-height: 1.5; */
+    color: var(--gray-dark);
+}
+
+.list-ground-8rem{
+    font-size: .9rem;
+    font-weight: 500;
+    /* line-height: 1.5; */
+}
+
+
+
+.ground-country-heading{
+    color: var(--gray-dark);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.player-filter-container {
+    column-gap: .5rem;
+}
+
+.player-search-box{
+    border-radius: 15px;
+}
+
+.player-select-filter-label{
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--gray-dark);
+}

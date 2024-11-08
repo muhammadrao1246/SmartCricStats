@@ -1,0 +1,107 @@
+/* INDEX CSS */
+
+.series-tab-container * a{
+    font-size: 1rem;
+}
+
+.title-heading{
+    font-size: 1.5rem;
+    color: var(--gray-dark);
+    font-weight: 500;
+}
+
+
+.group-title-heading{
+    font-size: 1.25rem;
+    color: var(--gray-dark);
+    font-weight: 400;
+}
+
+.series-list-container * .list-series-image-container{
+    width: 90px;
+}
+
+.series-list-container * img{
+    width: 45px;
+    height: 45px;
+}
+
+.series-list-container * .list-series-name{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--iq-secondary-dark);
+}
+
+.series-rc-redirect-arrow{
+    color: var(--iq-secondary-light);
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* SHOW PAGE CSS */
+
+.series-title{
+    font-size: 1rem;
+    color: var(--gray-dark);
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+.series-show-container {
+
+}
+
+.series-show-container * .series-season{
+    line-height: 1.5;
+}
+
+.series-show-container * img{
+    border: 1px solid #dee2e6;
+    background-color: var(--light);
+    object-fit: fill;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.series-show-container * .series-show-container {
+    width: 100px;
+}
+
+.series-show-container * .list-series-image-1{
+    position: relative; 
+    margin-right: -5px;
+    border-right: none;
+}
+
+.series-show-container * .list-series-image-2{
+    position: relative;
+    margin-left: -5px;
+    border-left: none;
+}
+
+/* .series-show-container  */
+
+
+/* TABS CODE  */
+
+/* FIXTURES TAB CODE */
+.series-fixture-group-heading {
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--gray-dark);
+}
+
+.series-fixtures-container * .scorecard-container{
+    max-width: 100%;
+}
+
+/* STATITICS TAB */
+
+.series-statistics-group-format-heading{
+    font-size: 1rem;
+    color: var(--gray-dark);
+    font-weight: 500;
+}

@@ -1,0 +1,55 @@
+:root{
+
+}
+.ranking-table *{
+    transition: 0.5s all;
+}
+.ranking-filter-row * select{
+    max-width: 150px;
+}
+
+.ranking-table > table{
+    min-width: 376px;
+    display: table !important;
+}
+
+.ranking-table * td{
+    vertical-align: middle;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.ranking-table * thead{
+    font-size: 0.8rem;
+}
+.ranking-table * tbody{
+    font-size: 0.75rem;
+}
+
+.ranking-table * td:nth-child(2) img:nth-child(1){
+    width:max-content;
+    height:30px;
+}
+
+.ranking-player{
+    width: 100px;
+    height: 100%;
+}
+
+.first-rank-player{
+    background: linear-gradient(to right, var(--iq-light) 0%, var(--iq-dark) 0%);
+    color: var(--iq-bg-light-color);
+    font-weight: bold;
+}
+.first-rank-player-not-found{
+    background: linear-gradient(to right, var(--iq-light) 0%, var(--iq-dark) 0%);
+    color: var(--iq-bg-light-color);
+    font-weight: bold;
+}
+.first-rank-player > td{
+    padding-bottom: 0;
+}
+.first-rank-player > td:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

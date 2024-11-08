@@ -1,0 +1,28 @@
+:root{
+
+}
+
+/* INDEX PAGE */
+.player-title{
+    font-size: 1.25rem;
+    color: var(--gray-dark);
+    font-weight: 600;
+}
+
+
+/* SHOW PAGE */
+.detail_player_image{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-color: var(--iq-bg-light-color);
+}
+
+.detail_player_heading{
+    font-size: 1.1rem;
+}
+
+.detail_player_content{
+    font-size: 1.1rem;
+}
+

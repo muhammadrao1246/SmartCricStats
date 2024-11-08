@@ -1,0 +1,54 @@
+/* INDEX CSS */
+
+.title-heading{
+    font-size: 1.5rem;
+    color: var(--gray-dark);
+    font-weight: 500;
+}
+
+.group-title-heading{
+    font-size: 1.25rem;
+    color: var(--gray-dark);
+    font-weight: 400;
+}
+
+.team-list-container * .list-team-image{
+    width: 50px;
+    height: 50px;
+}
+
+.team-list-container * .list-team-name{
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--iq-secondary-dark);
+}
+
+/* SHOW PAGE CSS */
+
+.team-title{
+    font-size: 1.25rem;
+    color: var(--gray-dark);
+    font-weight: 600;
+}
+
+
+
+/* TABS CODE  */
+
+/* FIXTURES TAB CODE */
+.team-fixture-group-heading {
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--gray-dark);
+}
+
+.team-fixtures-container * .scorecard-container{
+    max-width: 100%;
+}
+
+/* STATISTICS TAB */
+.team-statistics-group-format-heading{
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--gray-dark);
+}
